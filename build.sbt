@@ -14,7 +14,8 @@ lazy val root = (project in file(".")).
       "org.specs2"        %% "specs2"     % "2.4"   % "test",
       "com.storm-enroute" %% "scalameter" % "0.7"   % "test",
       "com.typesafe.play" %% "play-test"  % "2.3.7" % "test",
-      "com.typesafe.play" %% "play-ws"    % "2.3.7"
+      "com.typesafe.play" %% "play-ws"    % "2.3.7",
+      "nu.validator.htmlparser" %  "htmlparser"  % "1.2.1"
     ),
     resolvers ++= Seq(
       "Sonatype OSS Snapshots" at "https://oss.sonatype.org/content/repositories/snapshots",
