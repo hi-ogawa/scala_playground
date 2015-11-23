@@ -5,7 +5,7 @@ import org.specs2.mutable._
 
 import net.hiogawa.playground.Stuff._
 
-class Playground0Spec extends Specification {
+class StuffTest extends Specification {
 
   "calculates sum with upper limitation" >> {
     val f : Int => Int => Option[Int] =
